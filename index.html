@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="портфолио, верстальщик, вэб-разработка, сайт">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="vendors/swiper-bundle.min.css"> <!-- Swiper-slider -->
+    <link rel="stylesheet" href="vendors/animate.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Pavel Fedorov</title>
+</head>
+<body>
+    <section class="section main" id="up">
+        <div class="container">
+            <header class="main__header">
+                <a class="logo" href="#">
+                    <img class="logo__img" src="logo/logo.svg" alt="logo">
+                </a>
+                <ul class="social social_header">
+                    <li class="social__item">
+                        <a href="https://github.com/pavelfedorov2000?tab=repositories" class="social__link">
+                            <img src="icons/socials/github.svg" alt="" class="social__icon"></a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <img src="icons/socials/twitter.svg" alt="" class="social__icon"></a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <img src="icons/socials/instagram.svg" alt="" class="social__icon"></a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <img src="icons/socials/facebook.svg" alt="" class="social__icon"></a>
+                    </li>
+                </ul>
+            </header>
+
+            <div class="main__inner">
+                <div class="main__info">
+                    <h3 class="main__suptitle">Junior Frontend Developer</h3>
+                    <h1 class="main__title">Pavel Fedorov</h1>
+                    <p class="main__descr">
+                        Doing first steps in Web Development I've already learned some technologies and now I'm looking forward to my first job offer.
+                    </p>
+                    <a class="button" href="#skills">
+                        Go to my skills                    
+                    </a>
+                </div>
+                <img src="img/photo.jpg" alt="profile" class="main__img">
+            </div>
+        </div>
+    </section>
+
+    <section class=" section skills" id="skills">
+        <div class="container">
+            <h2 class="title">My skills</h2>
+            <div class="skills__wrapper">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="skills__item fadeInTopLeft wow" data-wow-duration="2s">
+                            <progress max="100" value="80"></progress>
+                            <div class="skills__title">SCSS / Sass</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="skills__item fadeInDown wow" data-wow-duration="2s">
+                            <progress max="100" value="70"></progress>
+                            <div class="skills__title">BEM-methodology</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="skills__item fadeInTopRight wow" data-wow-duration="2s">
+                            <progress max="100" value="70"></progress>
+                            <div class="skills__title">Bootstrap (grid-system)</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="skills__item fadeInLeft wow" data-wow-duration="2s">
+                            <progress max="100" value="30"></progress>
+                            <div class="skills__title">JavaScript</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="skills__item">
+                            <progress max="100" value="95"></progress>
+                            <div class="skills__title">HTML5 / CSS</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="skills__item fadeInRight wow" data-wow-duration="2s">
+                            <progress max="100" value="40"></progress>
+                            <div class="skills__title">JQuery</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="skills__item fadeInBottomLeft wow" data-wow-duration="2s">
+                            <progress max="100" value="10"></progress>
+                            <div class="skills__title">Gulp</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="skills__item fadeInUp wow" data-wow-duration="2s">
+                            <progress max="100" value="10"></progress>
+                            <div class="skills__title">Ajax</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="skills__item fadeInBottomRight wow" data-wow-duration="2s">
+                            <progress max="100" value="50"></progress>
+                            <div class="skills__title">CSS3 animations</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="button" href="#projects">
+                Go to my last projects                   
+            </a>
+        </div>
+    </section>
+
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="title">
+                Last projects
+            </h2>
+            <div class="swiper-container projects__slider">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide projects__slide">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="img/projects/glopt.jpg" alt="Сайт логистической фирмы Glopt" class="projects__img">
+                            </div>
+                            <div class="col-12 col-sm-10 offset-sm-1 col-md-7 offset-md-0">
+                                <div class="projects__info">
+                                    <h3 class="projects__title">
+                                        Сайт логистической фирмы Glopt
+                                    </h3>
+                                    <div class="projects__info-descr">
+                                        <div class="projects__info-item">
+                                            Adaptive
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            Bootstrap
+                                            <span>+</span>
+                                        </div>
+                                        <div></div>
+                                        <div class="projects__info-item">
+                                            BEM
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            Animations
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            JS
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            JQuery
+                                            <span>+</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- /slide-1 -->
+                    <div class="swiper-slide projects__slide">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="img/projects/pulse.jpg" alt="Интернет-магазин пульсометров" class="projects__img">
+                            </div>
+                            <div class="col-12 col-sm-10 offset-sm-1 col-md-7 offset-md-0">
+                                <div class="projects__info">
+                                    <h3 class="projects__title">
+                                        Интернет-магазин пульсометров
+                                    </h3>
+                                    <div class="projects__info-descr">
+                                        <div class="projects__info-item">
+                                            Adaptive
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            Bootstrap
+                                            <span>-</span>
+                                        </div>
+                                        <div></div>
+                                        <div class="projects__info-item">
+                                            BEM
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            Animations
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            JS
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            JQuery
+                                            <span>+</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- /slide-2 -->
+                    <div class="swiper-slide projects__slide">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="img/projects/hunger.jpg" alt="Сайт ресторана Hunger" class="projects__img">
+                            </div>
+                            <div class="col-12 col-sm-10 offset-sm-1 col-md-7 offset-md-0">
+                                <div class="projects__info">
+                                    <h3 class="projects__title">
+                                        Сайт ресторана Hunger
+                                    </h3>
+                                    <div class="projects__info-descr">
+                                        <div class="projects__info-item">
+                                            Adaptive
+                                            <span>-</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            Bootstrap
+                                            <span>-</span>
+                                        </div>
+                                        <div></div>
+                                        <div class="projects__info-item">
+                                            BEM
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            Animations
+                                            <span>-</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            JS
+                                            <span>-</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            JQuery
+                                            <span>-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- /slide-3 -->
+                    <div class="swiper-slide projects__slide">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="img/projects/dhl.jpg" alt="Сайт логистической компании DHL" class="projects__img">
+                            </div>
+                            <div class="col-12 col-sm-10 offset-sm-1 col-md-7 offset-md-0">
+                                <div class="projects__info">
+                                    <h3 class="projects__title">
+                                        Сайт логистической компании DHL
+                                    </h3>
+                                    <div class="projects__info-descr">
+                                        <div class="projects__info-item">
+                                            Adaptive
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            Bootstrap
+                                            <span>-</span>
+                                        </div>
+                                        <div></div>
+                                        <div class="projects__info-item">
+                                            BEM
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            Animations
+                                            <span>-</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            JS
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            JQuery
+                                            <span>-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- /slide-4 -->
+                    <div class="swiper-slide projects__slide">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="img/projects/smoothie.jpg" alt="Сайт смузийной" class="projects__img">
+                            </div>
+                            <div class="col-12 col-sm-10 offset-sm-1 col-md-7 offset-md-0">
+                                <div class="projects__info">
+                                    <h3 class="projects__title">
+                                        Сайт смузийной
+                                    </h3>
+                                    <div class="projects__info-descr">
+                                        <div class="projects__info-item">
+                                            Adaptive
+                                            <span>-</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            Bootstrap
+                                            <span>-</span>
+                                        </div>
+                                        <div></div>
+                                        <div class="projects__info-item">
+                                            BEM
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            Animations
+                                            <span>-</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            JS
+                                            <span>-</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            JQuery
+                                            <span>-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- /slide-5 -->
+                    <div class="swiper-slide projects__slide">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="img/projects/prengi.jpg" alt="Сайт Prengi" class="projects__img">
+                            </div>
+                            <div class="col-12 col-sm-10 offset-sm-1 col-md-7 offset-md-0">
+                                <div class="projects__info">
+                                    <h3 class="projects__title">
+                                        Сайт Prengi
+                                    </h3>
+                                    <div class="projects__info-descr">
+                                        <div class="projects__info-item">
+                                            Adaptive
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            Bootstrap
+                                            <span>+</span>
+                                        </div>
+                                        <div></div>
+                                        <div class="projects__info-item">
+                                            BEM
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            Animations
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            JS
+                                            <span>+</span>
+                                        </div>
+                                        <div class="projects__info-item">
+                                            JQuery
+                                            <span>+</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- /slide-6 -->
+                </div>
+                <div class="projects-pagination"></div> <!-- Dots -->
+            </div>
+            <a class="button" href="#contact">
+                Contact me                 
+            </a>
+        </div> <!-- /Container -->
+    </section>
+
+    <footer class=" section footer" id="contact">
+        <div class="container">
+            <h2 class="title">
+                Contact me
+            </h2>
+            <div class="footer__inner">
+                <div class="row">
+                    <div class="col-12 col-sm-8 offset-sm-2 col-md-5 offset-md-0">
+                        <form action="#" class="form">
+                            <div class="form__inner">
+                                <div class="form__title">
+                                    I'm always opened to your offers. Let's talk!
+                                </div>
+                                <input class="form__input" name="name" type="text" placeholder="Your name">
+                                <input class="form__input" name="phone" type="tel" placeholder="Your phone">
+                                <button class="button button_form" type="submit">
+                                    Discuss?
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-1 col-lg-5 offset-lg-1">
+                        <div class="footer__contact">
+                           <div class="footer__contact-items">
+                                <div class="footer__contact-item">
+                                    <h3 class="footer__contact-title">
+                                        Phone
+                                    </h3>
+                                    <a href="tel:+375299303673" class="footer__contact-link">
+                                        +375 (29) 930-36-73
+                                    </a>
+                                </div>
+                                <div class="footer__contact-item">
+                                    <h3 class="footer__contact-title">
+                                        E-mail
+                                    </h3>
+                                    <a href="mailto:pashok05_01@mail.ru" class="footer__contact-link">
+                                        pashok05_01@mail.ru
+                                    </a>
+                                </div>
+                                <div class="footer__contact-item">
+                                    <h3 class="footer__contact-title">
+                                        Social media
+                                    </h3>
+                                    <div class="footer__contact-links">
+                                        <a href="#" class="footer__contact-link">
+                                            t.me/fedorov
+                                        </a>
+                                        <a href="#" class="footer__contact-link">
+                                            vk.me/fedorov
+                                        </a>
+                                        <a href="#" class="footer__contact-link">
+                                            fb.me/fedorov
+                                        </a>
+                                    </div>
+                                </div>
+                           </div>
+                            <ul class="social">
+                                <li class="social__item">
+                                    <a href="https://github.com/pavelfedorov2000?tab=repositories" class="social__link">
+                                        <img src="icons/socials/github.svg" alt="" class="social__icon"></a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <img src="icons/socials/twitter.svg" alt="" class="social__icon"></a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <img src="icons/socials/instagram.svg" alt="" class="social__icon"></a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <img src="icons/socials/facebook.svg" alt="" class="social__icon"></a>
+                                </li>
+                            </ul>
+                            <a href="#" class="footer__confidencial">
+                                Политика конфиденциальности
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#up" class="pageup">
+        <img src="icons/chevron-circle-up-solid.svg" alt="up">
+    </a>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script> <!-- Валидация форм -->
+    <script src="js/jquery.maskedinput.min.js"></script> <!-- Маска ввода в инпутах -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.skills {
+    min-height: 400px;
+    padding: 64px 0 60px 0;
+    &__wrapper {
+        margin: 20px 0 50px 0;
+    }
+    &__item {
+        margin-top: 50px;
+    }
+    progress[value] {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        height: 14px;
+        &::-webkit-progress-bar {
+            background-color: #e3e3e3;
+            border-radius: 20px;
+        }
+        &::-webkit-progress-value {
+            background-color: $main-color;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+}

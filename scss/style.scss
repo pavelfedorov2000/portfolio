@@ -1,0 +1,44 @@
+@import 'base/variables';
+@import 'base/mixins';
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    overflow-x: hidden;
+    background-color: #20202D;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0;
+}
+.section {
+    min-height: 100vh;
+}
+
+@import 'blocks/main';
+@import 'blocks/social';
+@import 'blocks/skills';
+@import 'blocks/projects';
+@import 'blocks/footer';
+@import 'blocks/title';
+@import 'blocks/buttons';
+@import 'blocks/form';
+@import 'blocks/pageup';
+
+@import 'base/media';

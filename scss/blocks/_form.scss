@@ -1,0 +1,43 @@
+.form {
+    width: 100%;
+    height: 409px;
+    padding: 40px 36px 49px 35px;
+    background: #FFFFFF;
+    box-shadow: -5px 5px 0px #FFC41D;
+    border-radius: 5px;
+    &__title {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 12px;
+    }
+    &__input {
+        display: block;
+        width: 100%;
+        height: 63px;
+        background: #F8F8F8;
+        box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+        border-radius: 5px;
+        margin-top: 17px;
+        @include btn;
+        font-size: 14px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        color: #949494;
+        padding: 0 20px 0 50px;
+        background-image: url('../icons/inputs/user-icon.svg');
+        background-position: 20px center;
+        background-repeat: no-repeat;
+        &:nth-last-child(2) {
+            background-image: url('../icons/inputs/phone-icon.svg');
+        }
+        &::placeholder {
+            font-size: 14px;
+            line-height: 28px;
+            color: #949494;
+        }
+    }
+}

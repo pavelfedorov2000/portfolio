@@ -1,0 +1,38 @@
+.main {
+    min-height: 726px;
+    padding: 50px 0 155px 0;
+    &__header {
+        width: 100%;
+        @include flex;
+    }
+    &__inner {
+        @include flex;
+        margin-top: 105px;
+    }
+    &__info {
+        max-width: 420px;
+    }
+    &__suptitle {
+        font-size: 24px;
+        line-height: 28px;
+        color: $main-color;
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 59px;
+        color: #FFFFFF;
+        margin-top: 14px;
+    }
+    &__descr {
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin: 20px 0 38px 0;
+    }
+    &__img {
+        width: 389px;
+        height: 389px;
+        border-radius: 100%;
+    }
+}

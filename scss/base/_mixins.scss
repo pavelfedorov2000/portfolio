@@ -1,0 +1,30 @@
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin center {
+    @include flex;
+    justify-content: center;
+}
+@mixin btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+@mixin mw {
+    max-width: 100%;
+    height: auto;
+}
+@mixin centerX {
+    left: 50%;
+    transform: translateX(-50%);
+}
+@mixin centerY {
+    top: 50%;
+    transform: translateY(-50%);
+}
+@mixin centerXY {
+    @include centerX;
+    @include centerY;
+}
