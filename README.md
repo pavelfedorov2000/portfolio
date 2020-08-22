@@ -1,1 +1,10 @@
-# portfolio
+- HTML5 / CSS3
+- SCSS
+- Gulp
+- Bootstrap (grig system)
+- BEM-methodology
+- Smooth-scroll
+- Mask-input
+- Progress bars
+- Swiper-slider
+- Adaptive (Bootstrap + media-requests)
